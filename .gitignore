@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.log
+
+# Never commit keys or certificates (moonfall_pki.py keeps them in ~/.moonfall/pki)
+pki/
+*.key
+*.crt
+*.srl
+*-moonfall.tgz
+
+# Local-only: reports (contain personal info), Project 1 material, archives, Mac metadata
+*.pdf
+*.tgz
+screenshots_p1/
+__MACOSX/
+.DS_Store
+
+# Local-only: my screenshot script
+SCENARIOS.md
